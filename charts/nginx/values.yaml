@@ -19,7 +19,7 @@ service:
   externalIPs: []
   loadBalancerIP: ""
   loadBalancerSourceRanges: []
-  type: ClusterPort
+  type: NodePort
   port: 80
   nodePort: ""
 
