@@ -10,7 +10,7 @@ sleepyTime: "10"
 
 image:
   repository: rancher/hello-world
-  tag: 
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
