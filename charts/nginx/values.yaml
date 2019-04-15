@@ -9,8 +9,8 @@ restartPolicy: Never
 sleepyTime: "10"
 
 image:
-  repository: rancher
-  tag: hello-world
+  repository: rancher/hello-world
+  tag: 
   pullPolicy: IfNotPresent
 
 service:
