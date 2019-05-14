@@ -6,10 +6,10 @@ replicaCount: 1
 restartPolicy: Never
 
 # Evaluated by the post-install hook
-sleepyTime: "10"
+sleepyTime: "1"
 
 image:
-  repository: rancher/hello-world
+  repository: superseb/rancher-demo
   tag: latest
   pullPolicy: IfNotPresent
 
